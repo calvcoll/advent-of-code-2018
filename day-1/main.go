@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/calvcoll/advent-of-code/utils"
+	"github.com/calvcoll/advent-of-code-2018/utils"
 	"log"
 	"strconv"
 )
