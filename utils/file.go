@@ -11,5 +11,6 @@ func ReadLines(filepath string) ([]string, error) {
 		return nil, err
 	}
 	data := string(rawData)
+	data = strings.TrimSuffix(data, "\n")
 	return strings.Split(data, "\n"), nil
 }
