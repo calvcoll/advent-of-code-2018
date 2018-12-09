@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func ReadLines(filepath string) ([]string, error) {
+func ReadLines(filepath string) (lines []string, err error) {
 	rawData, err := ioutil.ReadFile(filepath)
 	if err != nil {
 		return nil, err
